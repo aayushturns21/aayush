@@ -17,6 +17,12 @@ body {
 .text-primary {
     color: #{{ site.data.template.color.primary }};
 }
+.text-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
 p {
     font-size: 14px;
@@ -269,7 +275,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/headerbg.jpg');
+    background-image: url('{{ site.baseurl }}/img/headerbg.png');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -426,10 +432,19 @@ section h3.section-subheading {
     z-index: 2;
 }
 
+video{
+    width: 320px;
+    height: 240px;
+}
 @media(min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
+    video{
+        width: 640px;
+        height: 480px;
+    }
+
 }
 
 .timeline {
