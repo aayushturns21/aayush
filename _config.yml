@@ -1,10 +1,11 @@
-baseurl: "/aayush"
-url: ""
 
 # Site settings
-title: Aayush
+
+title: "Aayush"
 email: your-email@domain.com
 description: "To help make Aayush's 21st birthday in Quarantine a bit more special"
+baseurl: "/aayush"
+url: ""
 
 
 # Team names, titles and social links
